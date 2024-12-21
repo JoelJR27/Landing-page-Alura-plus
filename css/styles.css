@@ -1,0 +1,134 @@
+:root {
+  --cor-de-fundo: #00030c;
+  --cor-primaria: #ffffff;
+  --cor-secundaria: #c0c0c0;
+  --cor-primaria-botao: #167bf7;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-primaria);
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.cor__paragrafo{
+  color: var(--cor-secundaria);
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.conteudo__principal {
+  background-image: url("../images/Background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.container__caixa {
+  margin: 0 6em;
+}
+
+.container__titulo {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.container__imagem {
+  margin: 1em 0 2em 0;
+}
+
+.conteudo__principal-botao {
+  color: var(--cor-primaria);
+  background-color: var(--cor-primaria-botao);
+  border-radius: 5px;
+  padding: 1em;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.botao_secundario {
+  background-color: transparent;
+  border: 2px solid var(--cor-primaria);
+}
+
+.container__aviso {
+  font-size: 0.75rem;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+
+.descricao__titulo{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.descricao__paragrafo{
+  font-size: 1rem;
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositivos{
+  text-align: center;
+}
+
+.dispositivos__titulo{
+  font-size: 3rem;
+  margin-bottom: 0.8em;
+}
+
+.dispositivos__lista{
+  display: flex;
+  justify-self: center;
+}
+
+.lista__item{
+  font-size: 2rem;
+}
+
+.rodape{
+  text-align: center;
+  padding: 145px 120px 50px 99px;
+}
+
+.rodape__lista{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em 0 1em 0;
+}
+
+.lista__link a{
+color: var(--cor-primaria);
+}
+
+.lista__link a:hover{
+color: var(--cor-primaria-botao);
+}
+
+.direitos{
+  font-size: 0.875rem;
+  padding: 1em;
+}
