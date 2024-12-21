@@ -13,7 +13,7 @@ body {
   font-weight: 400;
 }
 
-.cor__paragrafo{
+.cor__paragrafo {
   color: var(--cor-secundaria);
 }
 
@@ -71,64 +71,103 @@ body {
   width: 80%;
 }
 
-.container__descricao{
-    padding: 2em;
+.container__descricao {
+  padding: 2em;
 }
 
-
-.descricao__titulo{
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 0.2em;
+.descricao__titulo {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.2em;
 }
 
-.descricao__paragrafo{
+.descricao__paragrafo {
   font-size: 1rem;
 }
 
-.secundario__botao{
-    display: inline-block;
-    margin-top: 1em;
+.secundario__botao {
+  display: inline-block;
+  margin-top: 1em;
 }
 
-.dispositivos{
+.dispositivos {
   text-align: center;
 }
 
-.dispositivos__titulo{
+.dispositivos__titulo {
   font-size: 3rem;
   margin-bottom: 0.8em;
 }
 
-.dispositivos__lista{
+.dispositivos__lista {
   display: flex;
   justify-self: center;
 }
 
-.lista__item{
+.lista__item {
   font-size: 2rem;
 }
 
-.rodape{
+.rodape {
   text-align: center;
   padding: 145px 120px 50px 99px;
 }
 
-.rodape__lista{
+.rodape__lista {
   display: flex;
   justify-content: space-evenly;
   padding: 2em 0 1em 0;
 }
 
-.lista__link a{
-color: var(--cor-primaria);
+.lista__link a {
+  color: var(--cor-primaria);
 }
 
-.lista__link a:hover{
-color: var(--cor-primaria-botao);
+.lista__link a:hover {
+  color: var(--cor-primaria-botao);
 }
 
-.direitos{
+.direitos {
   font-size: 0.875rem;
   padding: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    background-image: none;
+  }
+
+  .container__imagem {
+    width: 50vw;
+  }
+
+  .container__caixa {
+    margin: 2em 2em;
+  }
+
+  .secundario {
+    margin: 0;
+    text-align: center;
+  }
+
+  .secundario__imagem {
+    width: 50vw;
+  }
+
+  .dispositivos__lista {
+    display: block;
+  }
+
+  .rodape__lista{
+    display: block;
+  }
+
+  .rodape__lista *{
+    margin: 1em 0;
+  }
+
+  .direitos{
+    margin: 1em 0;
+  }
 }
